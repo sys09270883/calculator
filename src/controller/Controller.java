@@ -38,6 +38,8 @@ public class Controller {
 				buttons[i].addActionListener(new ActionListener() {
 					@Override
 					public void actionPerformed(ActionEvent e) {
+						if (!model.isPossible())
+							return;
 						model.append(((JButton) e.getSource()).getText());
 					}
 				});
