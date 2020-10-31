@@ -15,8 +15,8 @@ public class OperatorUtils {
 			opConverter = new HashMap<>();
 			opConverter.put("+", Operator.PLUS);
 			opConverter.put("-", Operator.MINUS);
-			opConverter.put("¡¿", Operator.TIMES);
-			opConverter.put("¡À", Operator.OBELUS);
+			opConverter.put("Ã—", Operator.TIMES);
+			opConverter.put("Ã·", Operator.OBELUS);
 		}
 		return instance;
 	}

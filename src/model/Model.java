@@ -26,7 +26,7 @@ public class Model {
 	}
 
 	public void calculate() {
-		StringTokenizer tokenizer = new StringTokenizer(data, "+-¡¿¡À", true);
+		StringTokenizer tokenizer = new StringTokenizer(data, "+-Ã·Ã—", true);
 
 		double n1;
 		if (tokenizer.countTokens() == 4) {

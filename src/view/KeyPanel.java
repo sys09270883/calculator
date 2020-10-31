@@ -8,7 +8,7 @@ import javax.swing.JPanel;
 
 public class KeyPanel extends JPanel {
 	private static final long serialVersionUID = 2847649416420413966L;
-	final private String[] keys = { "7", "8", "9", "¡À", "4", "5", "6", "¡¿", "1", "2", "3", "-", "C", "0", "=", "+" };
+	final private String[] keys = { "7", "8", "9", "Ã·", "4", "5", "6", "Ã—", "1", "2", "3", "-", "C", "0", "=", "+" };
 	private JButton[] buttons;
 
 	public KeyPanel() {
